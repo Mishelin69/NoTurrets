@@ -1,0 +1,10 @@
+{
+    "name": "NoTurrets",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Prevents turrets from spawning in any level.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "BMX-LobbyCompatibility-1.0.1"
+    ]
+}
