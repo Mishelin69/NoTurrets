@@ -12,8 +12,10 @@ If host has this mod on everyone else has to have it to prevent chaos.
 
 # Build
 
-Run build.sh.
+ ```bash
+   ./build.sh
+   ```
 
 # Credits
 
-The Christmas spirit that can't dance arount them.
+The Christmas spirit that **can**'t dance around them.
