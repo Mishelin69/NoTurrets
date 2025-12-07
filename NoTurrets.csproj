@@ -64,7 +64,7 @@
       <ManifestLines Include="{"/>
       <ManifestLines Include="  &quot;name&quot;: &quot;NoTurrets&quot;,"/>
       <ManifestLines Include="  &quot;version_number&quot;: &quot;$(Version)&quot;,"/>
-      <ManifestLines Include="  &quot;website_url&quot;: &quot;&quot;,"/>
+      <ManifestLines Include="  &quot;website_url&quot;: &quot;https://github.com/Mishelin69/NoTurrets&quot;,"/>
       <ManifestLines Include="  &quot;description&quot;: &quot;Santa removes all turrets from the map to prevent chaos.&quot;,"/>
       <ManifestLines Include="  &quot;dependencies&quot;: ["/>
       <ManifestLines Include="    &quot;BepInEx-BepInExPack-5.4.2100&quot;,"/>

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DLL_NAME="mishelin.NoTurrets.dll"
-#DEST_PATH="your-destination-path"
+DEST_PATH="/home/mishelin/.config/r2modmanPlus-local/LethalCompany/profiles/Default/BepInEx/plugins"
 BUILD_OUTPUT="./bin/Release/netstandard2.1"
 ZIP_NAME="NoTurrets_Release.zip"
 
@@ -14,7 +14,7 @@ if [ $? -eq 0 ]; then
     mkdir -p "$DEST_PATH"
 
     # uncoment this if you want to copy the dll into somewhere
-    #$ cp "$BUILD_OUTPUT/$DLL_NAME" "$DEST_PATH/"
+    cp "$BUILD_OUTPUT/$DLL_NAME" "$DEST_PATH/"
     zip -j "$ZIP_NAME" "$BUILD_OUTPUT/$DLL_NAME" "$BUILD_OUTPUT/manifest.json" "README.md" "icon.png"
 else
     echo "!!! Build Failed. Aborting move. !!!"
