@@ -28,7 +28,7 @@ public class NoTurrets : BaseUnityPlugin
 
     private static void PluginLogInfoWithPrefix(string content)
     {
-        Logger.LogInfo($"[EVIL] ${content}");
+        Logger.LogInfo($"[EVIL] {content}");
     }
 
     [HarmonyPatch(typeof(RoundManager))]
