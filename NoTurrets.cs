@@ -44,6 +44,11 @@ public class NoTurrets : BaseUnityPlugin
                 return;
             }
 
+            for (int i = 0; i < __instance.currentLevel.spawnableMapObjects.Length; ++i)
+            {
+                PluginLogInfoWithPrefix(__instance.currentLevel.spawnableMapObjects[i].prefabToSpawn.name);
+            }
+
             PluginLogInfoWithPrefix("Trying to remove turrets from the game...");
             var spawnableEnemies = __instance.currentLevel.spawnableMapObjects.ToList();
             int originalListLength = spawnableEnemies.Count;
